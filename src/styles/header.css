@@ -1,0 +1,10 @@
+.header-link {
+  color: #f3f3f3;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all ease-in-out 150ms;
+}
+
+.header-link:hover {
+  color: #ff9a00;
+}
