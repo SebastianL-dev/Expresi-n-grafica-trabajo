@@ -2,27 +2,78 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/public/V2.webp" type="image/x-icon" />
     <link rel="stylesheet" href="/src/styles/globals.css" />
+    <link rel="stylesheet" href="/src/styles/index.styles.css" />
+    <link rel="stylesheet" href="/src/styles/footer.css" />
+    <link rel="stylesheet" href="/src/styles/header.css" />
+
     <title>Web</title>
   </head>
   <body>
     <header>
       <nav>
-        <ul></ul>
+        <ul>
+          <li><a href="/">Inicio</a></li>
+        </ul>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h1>Hola 👋, soy <span>Sebastián Lozano</span></h1>
-        <p></p>
+      <section class="home-section">
+        <div class="home-container-content">
+          <h1>
+            Hola 👋, soy <br />
+            <span class="color-text">Sebastián Lozano</span>
+          </h1>
+          <p class="home-description">
+            Soy desarrollador web Front-End de Sogamoso, Colombia. Actualmente
+            estoy estudiando Ingeniería de Sistemas y Computación en la
+            Universidad Pedagógica y Tecnológica de Colombia.
+          </p>
+
+          <ul class="home-social-media">
+            <li class="basic-button">
+              <a
+                href="https://www.linkedin.com/in/sebastian-lozano-dev/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/src/resources/icons/linkedin.svg" alt="LinkedIn" />
+                LinkedIn</a
+              >
+            </li>
+            <li class="basic-button">
+              <a
+                href="https://github.com/SebastianL-dev"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="/src/resources/icons/github.svg" alt="GitHub" />
+                GitHub</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="home-container-image">
+          <img
+            class="logo-image"
+            src="/public/V2.webp"
+            alt="Logo de Sebastián Lozano"
+            width="350"
+          />
+        </div>
       </section>
+
+      <section></section>
     </main>
 
     <footer>
-      <p>
+      <p style="margin-bottom: 1em">
         Made with ❤️ by
         <a
+          class="color-link"
           target="_blank"
           rel="noopener noreferrer"
           href="https://github.com/SebastianL-dev"

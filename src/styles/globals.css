@@ -11,15 +11,35 @@ body {
 }
 
 main {
-  margin: 0 5%;
+  margin: 0 10%;
+}
+
+header {
+  margin: 0 10%;
+  font-size: 18px;
+  /* position: fixed; */
+  top: 0;
 }
 
 footer {
-  margin: 0.5em 5%;
+  margin: 0.5em 10%;
   font-size: 14px;
   color: #999999;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
 }
